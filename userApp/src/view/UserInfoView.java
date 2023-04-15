@@ -176,7 +176,7 @@ public class UserInfoView extends javax.swing.JFrame {
             if (email == null) break;
 
             if (!user.getEmail().equals(email)) {
-                JOptionPane.showMessageDialog(rootPane, "Email không tồn tại!", "Lỗi!", JOptionPane.WARNING_MESSAGE);
+                JOptionPane.showMessageDialog(rootPane, "Email không chính xác!", "Lỗi!", JOptionPane.WARNING_MESSAGE);
                 continue;
             }
 
